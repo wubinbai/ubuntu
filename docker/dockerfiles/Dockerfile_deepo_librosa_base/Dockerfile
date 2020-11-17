@@ -1,3 +1,4 @@
+# sudo docker build -t mimic:v1 .
 FROM ufoym/deepo:keras
 LABEL maintainer="wubinbai@yahoo.com"
 RUN sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list
