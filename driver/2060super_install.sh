@@ -13,7 +13,7 @@ sudo update-initramfs -u
 sudo apt update
 sudo apt install gcc g++ make -y
 
-mkdir ~/temp/
+mkdir -p ~/temp/
 cp /media/b/TOSHIBA\ EXT/2_cuda_cudnn_anaconda/2060_super_graphics_driver/NVIDIA-Linux-x86_64-450.80.02.run ~/temp
 mv ~/temp/NVIDIA-Linux-x86_64-450.80.02.run ~/temp/driver.run
 
