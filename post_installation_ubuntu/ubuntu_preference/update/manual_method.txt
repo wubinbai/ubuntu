@@ -1,0 +1,5 @@
+1 Keyboard: Windows Key -> software
+2 In the Tab: Other Software -> uncheck all
+3 In the Tab: Ubuntu Software -> Select all
+4 In the Tab: Ubuntu Software -> Download From -> Other -> Select Best -> Waiting... Done!
+5 Reload!
