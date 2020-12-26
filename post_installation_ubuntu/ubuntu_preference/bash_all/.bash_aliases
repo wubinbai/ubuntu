@@ -90,7 +90,14 @@ alias sdp='sudo docker ps'
 alias sdr='sudo docker rm'
 alias sdri='sudo docker rmi'
 # === misc ===
-# pip
+# === pip sources ===
+alias p3it='pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/' # t: tsinghua
+alias p3iu='pip3 install -i http://pypi.mirrors.ustc.edu.cn/simple/' # u: ustc
+alias p3id='pip3 install -i http://pypi.douban.com/simple/' # d: douban
+alias p3iu='pip3 install -i http://pypi.mirrors.ustc.edu.cn/simple/' # u: ustc
+alias p3ih='pip3 install -i http://pypi.hustunique.com/' # h: huazhongkeji
+alias p3ia='pip3 install -i http://mirrors.aliyun.com/pypi/simple/' # a: aliyun
+
 # alias sduhmd="sudo du -h --max-depth=1"
 
 # === tar ===
