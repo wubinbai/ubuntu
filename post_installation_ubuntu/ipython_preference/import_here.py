@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 from pandas import read_csv as pdrc
 import sys
+import os
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 import librosa
@@ -22,12 +23,10 @@ def plot_whole(df):
 # Better help function he():
 
 def he(): 
-    global ar
     ar = input('Enter the function name for help:')
     help(eval(ar))
 # for . operation of dir
 # use eval(repr(xxx.i))
-
 
 def my_plot(data_array):
     plt.figure()
@@ -43,8 +42,6 @@ def my_plotas(data_array):
 def save_model_keras(model,save_path):
     from keras.utils import plot_model
     plot_model(model,show_shapes=True,to_file=save_path)
-
-
 
 def torchviz_pdf(model,input_tensor):
     from torchviz import make_dot
