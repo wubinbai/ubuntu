@@ -7,7 +7,8 @@ import os
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 import librosa
-#import seaborn as sns
+import seaborn as sns
+se = sns
 # for ipython to display all results in the jupyter notebook:
 from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = "all"
