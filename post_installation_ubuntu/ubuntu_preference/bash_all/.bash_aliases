@@ -62,6 +62,7 @@ alias sdn='shutdown now'
 alias rb='reboot'
 alias dh='du -h .'
 alias st='speedtest'
+alias ST='hdparm -Tt' # disk speed e.g. ST /dev/sda
 alias p3='python3'
 alias ca='cat'
 # === more ls ===
