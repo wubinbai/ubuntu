@@ -11,3 +11,4 @@ cd ..
 sudo apt update
 cd ~
 mkdir -p trash
+mkdir -p git
