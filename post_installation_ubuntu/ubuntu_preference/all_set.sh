@@ -9,3 +9,5 @@ cd update
 bash set_update_preference_aliyun.sh
 cd ..
 sudo apt update
+cd ~
+mkdir -p trash

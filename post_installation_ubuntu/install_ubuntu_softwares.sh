@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install git vim speedtest-cli unrar retext xsel tree ffmpeg python3-pip ipython3 libsndfile1
+sudo apt install -y git vim speedtest-cli unrar retext xsel tree ffmpeg python3-pip ipython3 libsndfile1
 # pip3 ipython3
 # pip3: matplotlib tqdm librosa 
 echo '======================================='

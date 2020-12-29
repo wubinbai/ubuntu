@@ -19,9 +19,3 @@ pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ sklearn
 # === librosa ===
 #pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ llvmlite==0.31.0 numba==0.48.0 librosa==0.7.2
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ llvmlite numba librosa
-
-python3 test_python_packages.py
-
-# === set ipython preference ===
-cp ipython_preference/import_here.py /home/*/.ipython/profile_default/startup
-
