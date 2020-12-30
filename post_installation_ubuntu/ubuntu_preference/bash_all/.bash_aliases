@@ -47,6 +47,8 @@ alias P='cd ~/Pictures'
 alias Q=''
 # Reverser turn: turn previous
 alias R='cd -'
+alias RE='retext'
+alias RE2='grip'
 alias S='cd /media/*/PSSD'
 alias T='cd /media/*/TOSHIBA\ EXT\/'
 alias T2='cd /media/*/TOSHIBA\ EXT1\/'
