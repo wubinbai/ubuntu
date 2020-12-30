@@ -120,3 +120,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+export TF_FORCE_GPU_ALLOW_GROWTH=true
+

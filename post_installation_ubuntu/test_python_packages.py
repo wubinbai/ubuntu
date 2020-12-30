@@ -9,6 +9,7 @@ import llvmlite as ll
 import numba as nu
 import librosa as li
 import tensorflow as tf
+import tensorflow_addons as tfa
 import keras as ke
 
 print('========== testing installed python packages ==========')
@@ -23,4 +24,5 @@ print('llvmlite version:', ll.__version__)
 print('numba version:',nu.__version__)
 print('librosa version:',li.__version__)
 print('tensorflow version: ', tf.__version__)
+print('tensorflow_addons version: ', tfa.__version__)
 print('keras version:', ke.__version__)
