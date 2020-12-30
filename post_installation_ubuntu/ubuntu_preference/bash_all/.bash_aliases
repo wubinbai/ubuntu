@@ -63,6 +63,7 @@ alias Z=''
 alias sdn='shutdown now'
 alias rb='reboot'
 alias dh='du -h .'
+alias da='du -h .;du -sh *'
 alias st='speedtest'
 alias ST='hdparm -Tt' # disk speed e.g. ST /dev/sda
 alias p3='python3'
