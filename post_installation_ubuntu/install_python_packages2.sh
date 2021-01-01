@@ -6,6 +6,9 @@ pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ tensorflow==2.2.0
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ tensorflow-addons==0.10.0
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ keras==2.3.1
 
+# === image classifiers ===
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ image-classifiers
+
 python3 test_python_packages.py
 
 # === set ipython preference ===
