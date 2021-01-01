@@ -94,6 +94,7 @@ alias sdp='sudo docker ps'
 alias sdr='sudo docker rm'
 alias sdri='sudo docker rmi'
 # === misc ===
+alias sud='sudo updatedb' # updatedb for locate
 # === pip sources ===
 alias p3t='pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/' # t: tsinghua
 alias p3u='pip3 install -i http://pypi.mirrors.ustc.edu.cn/simple/' # u: ustc
