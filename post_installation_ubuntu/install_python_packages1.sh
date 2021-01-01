@@ -16,6 +16,9 @@ pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ seaborn
 #pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ scikit-image
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ sklearn
 
+# == gpustat ===
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ gpustat
+
 # === librosa ===
 #pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ llvmlite==0.31.0 numba==0.48.0 librosa==0.7.2
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ llvmlite numba librosa

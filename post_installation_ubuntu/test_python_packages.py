@@ -7,6 +7,7 @@ import seaborn as se
 import sklearn as sk
 import llvmlite as ll
 import numba as nu
+import gpustat as gp
 import librosa as li
 import tensorflow as tf
 import tensorflow_addons as tfa
@@ -21,6 +22,7 @@ print('tqdm version:', tq.__version__)
 print('matplotlib version:', ma.__version__)
 print('seaborn version:', se.__version__)
 print('sklearn version:', sk.__version__)
+print('gpustat version:', gp.__version__)
 print('llvmlite version:', ll.__version__)
 print('numba version:',nu.__version__)
 print('librosa version:',li.__version__)
