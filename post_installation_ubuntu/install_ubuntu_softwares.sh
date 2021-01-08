@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install -y git vim speedtest-cli unrar retext xsel tree ffmpeg python3-pip ipython3 libsndfile1 sox pv
+sudo apt install -y git vim speedtest-cli unrar retext xsel tree ffmpeg python3-pip ipython3 libsndfile1 sox pv curl
 # pip3 ipython3
 # pip3: matplotlib tqdm librosa 
 echo '======================================='
@@ -52,3 +52,7 @@ sox --version
 echo '==============='
 echo 'pv version'
 pv --version | grep 'pv '
+
+echo '==============='
+echo 'curl version'
+curl --version | grep 'curl '
