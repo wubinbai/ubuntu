@@ -95,6 +95,7 @@ alias sdr='sudo docker rm'
 alias sdri='sudo docker rmi'
 # === misc ===
 alias sud='sudo updatedb' # updatedb for locate
+alias wea='curl wttr.in'
 # === pip sources ===
 alias p3t='pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/' # t: tsinghua
 alias p3u='pip3 install -i http://pypi.mirrors.ustc.edu.cn/simple/' # u: ustc
@@ -106,9 +107,13 @@ alias p3a='pip3 install -i http://mirrors.aliyun.com/pypi/simple/' # a: aliyun
 # alias sduhmd="sudo du -h --max-depth=1"
 
 # === tar ===
-alias tv='tar -tzvf' # tar view
-alias tn='tar -czvf' # tar create 'n'ew
-alias tx='tar -xzvf' # tar extract
+alias tv='tar -tzvf' # tar view .tar.gz
+alias tn='tar -czvf' # tar create 'n'ew .tar.gz
+alias tx='tar -xzvf' # tar extract .tar.gz
+
+alias TV='tar -tvf' # tar view .tar
+alias TN='tar -cvf' # tar create 'n'ew .tar
+alias TX='tar -xvf' # tar extract .tar
 # === chmod ===
 alias ax='chmod a+x'
 # === cd ===
