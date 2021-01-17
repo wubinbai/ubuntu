@@ -1,6 +1,18 @@
 #!/bin/bash
 
 sudo apt install -y git vim speedtest-cli unrar retext xsel tree ffmpeg python3-pip ipython3 libsndfile1 sox pv curl
+
+## install vlc
+vlc --version
+if [ "$?" == "0" ]; then
+	echo 'VLC is installed!'
+else
+	echo 'VLC is not installed, installing VLC ...'
+	cd ../softwares
+	./vlc.sh
+	cd ../post_installation_ubuntu
+fi
+
 # pip3 ipython3
 # pip3: matplotlib tqdm librosa 
 echo '======================================='
@@ -56,3 +68,8 @@ pv --version | grep 'pv '
 echo '==============='
 echo 'curl version'
 curl --version | grep 'curl '
+
+echo '==============='
+echo 'vlc version'
+vlc --version | grep 'VLC '
+
