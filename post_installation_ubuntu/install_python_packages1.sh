@@ -31,3 +31,6 @@ pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ --upgrade ipython3
 
 # === cv2 ===
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ opencv-python
+
+# === imgaug ===
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ imgaug
