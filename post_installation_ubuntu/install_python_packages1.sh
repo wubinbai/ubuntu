@@ -28,3 +28,6 @@ pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ jupyter
 #pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ prompt-toolkit==1.0.15
 #pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ jupyter-console==5.2.0
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ --upgrade ipython3
+
+# === cv2 ===
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ opencv-python
