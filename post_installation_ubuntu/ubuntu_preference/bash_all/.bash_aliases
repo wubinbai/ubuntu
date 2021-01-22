@@ -88,6 +88,7 @@ alias gm='git mv'
 alias gs='git status'
 alias gl='git log'
 alias gd='git diff'
+alias ch='git checkout'
 
 # === docker ===
 alias sdp='sudo docker ps'
