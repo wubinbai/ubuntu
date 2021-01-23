@@ -131,4 +131,5 @@ alias u3='cd /$(echo $PWD | cut -f 2,3,4 -d /)'
 alias u4='cd /$(echo $PWD | cut -f 2,3,4,5 -d /)'
 alias u5='cd /$(echo $PWD | cut -f 2,3,4,5,6 -d /)'
 
-
+# === cp ===
+alias CP='rsync -ah --progress'
