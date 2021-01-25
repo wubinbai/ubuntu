@@ -13,6 +13,10 @@ import tensorflow as tf
 import tensorflow_addons as tfa
 import keras as ke
 import classification_models
+import lightgbm as lgb
+import xgboost as xgb
+#import cupy as cp
+
 
 print('========== testing installed python packages ==========')
 print('numpy version: ', np.__version__)
@@ -30,3 +34,6 @@ print('tensorflow version: ', tf.__version__)
 print('tensorflow_addons version: ', tfa.__version__)
 print('keras version:', ke.__version__)
 print('image-classifiers version:',classification_models.__version__)
+print('lightgbm version:', lgb.__version__)
+print('xgboost version:', xgb.__version__)
+#print('cupy version:', cp.__version__)

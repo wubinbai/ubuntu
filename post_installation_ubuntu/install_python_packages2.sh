@@ -9,6 +9,15 @@ pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ keras==2.3.1
 # === image classifiers ===
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ image-classifiers
 
+# === lightgbm ===
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ lightgbm
+
+# === xgboost ===
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ xgboost
+
+# === cupy ===
+#pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ cupy
+
 python3 test_python_packages.py
 
 # === set ipython preference ===
