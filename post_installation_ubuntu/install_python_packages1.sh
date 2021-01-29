@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # upgrade pip3 first
-pip3 install --upgrade pip
+pip3 install --upgrade pip  -i https://pypi.tuna.tsinghua.edu.cn/simple/
 
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ numpy
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ pandas
