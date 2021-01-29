@@ -21,5 +21,5 @@ pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ xgboost
 python3 test_python_packages.py
 
 # === set ipython preference ===
-cp ipython_preference/import_here.py /home/*/.ipython/profile_default/startup
+# cp ipython_preference/import_here.py /home/*/.ipython/profile_default/startup
 

@@ -25,9 +25,13 @@ pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ llvmlite numba librosa
 
 # === jupyter notebook (nbconvert is automatically installed) ===
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ jupyter
-#pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ prompt-toolkit==1.0.15
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ prompt-toolkit==1.0.15
 #pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ jupyter-console==5.2.0
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ --upgrade ipython3
+#pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ --upgrade prompt-toolkit
+
+# === set ipython preference ===
+cp ipython_preference/import_here.py /home/*/.ipython/profile_default/startup
 
 # === cv2 ===
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ opencv-python
