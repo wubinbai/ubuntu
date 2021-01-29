@@ -16,7 +16,8 @@ import classification_models
 import lightgbm as lgb
 import xgboost as xgb
 #import cupy as cp
-
+import torch as to
+import torchvision as tv
 
 print('========== testing installed python packages ==========')
 print('numpy version: ', np.__version__)
@@ -37,3 +38,5 @@ print('image-classifiers version:',classification_models.__version__)
 print('lightgbm version:', lgb.__version__)
 print('xgboost version:', xgb.__version__)
 #print('cupy version:', cp.__version__)
+print('torch version:', to.__version__)
+print('torchvision version:', tv.__version__)

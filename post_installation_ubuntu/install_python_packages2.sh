@@ -18,8 +18,11 @@ pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ xgboost
 # === cupy ===
 #pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ cupy
 
+# === torch ===
+#pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ torch --default-timeout=100
+pip3 install torch -i  https://pypi.mirrors.ustc.edu.cn/simple
+pip3 install torchvision -i  https://pypi.mirrors.ustc.edu.cn/simple
+
 python3 test_python_packages.py
 
-# === set ipython preference ===
-# cp ipython_preference/import_here.py /home/*/.ipython/profile_default/startup
 
