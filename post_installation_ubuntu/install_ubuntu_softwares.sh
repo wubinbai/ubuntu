@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install -y git vim speedtest-cli unrar retext xsel tree ffmpeg python3-pip ipython3 libsndfile1 sox pv curl
+sudo apt install -y git vim speedtest-cli unrar retext grip xsel tree ffmpeg python3-pip ipython3 libsndfile1 sox pv curl
 
 ## install vlc
 vlc --version
@@ -36,6 +36,10 @@ which unrar
 echo '==============='
 echo 'retext version(which command)'
 which retext
+
+echo '==============='
+echo 'grip version(which command)'
+which grip
 
 echo '==============='
 echo 'xsel version'
