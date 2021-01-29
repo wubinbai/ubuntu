@@ -23,6 +23,9 @@ pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ xgboost
 pip3 install torch -i  https://pypi.mirrors.ustc.edu.cn/simple
 pip3 install torchvision -i  https://pypi.mirrors.ustc.edu.cn/simple
 
+# === detectron2 ===
+# pip3 install detectron2 -i  https://pypi.mirrors.ustc.edu.cn/simple
+
 python3 test_python_packages.py
 
 
