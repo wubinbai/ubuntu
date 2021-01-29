@@ -134,3 +134,7 @@ alias u5='cd /$(echo $PWD | cut -f 2,3,4,5,6 -d /)'
 
 # === cp ===
 alias CP='rsync -ah --progress'
+
+# === cuda cudnn ===
+alias cuda='cat /usr/local/cuda/version.txt'
+alias cudnn='cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2'
