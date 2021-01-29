@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # === tensorflow and keras ===
-pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ tensorflow==2.2.0
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ tensorflow==2.2.0 --default-timeout=100
 # For version, check: https://github.com/tensorflow/addons
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ tensorflow-addons==0.10.0
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ keras==2.3.1
