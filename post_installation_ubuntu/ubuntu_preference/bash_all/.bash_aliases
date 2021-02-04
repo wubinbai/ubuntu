@@ -100,11 +100,10 @@ alias wea='curl wttr.in'
 alias ret='retext'
 # === pip sources ===
 alias p3t='pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/' # t: tsinghua
-alias p3u='pip3 install -i http://pypi.mirrors.ustc.edu.cn/simple/' # u: ustc
-alias p3d='pip3 install -i http://pypi.douban.com/simple/' # d: douban
-alias p3u='pip3 install -i http://pypi.mirrors.ustc.edu.cn/simple/' # u: ustc
-alias p3h='pip3 install -i http://pypi.hustunique.com/' # h: huazhongkeji
-alias p3a='pip3 install -i http://mirrors.aliyun.com/pypi/simple/' # a: aliyun
+alias p3d='pip3 install -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com' # d: douban
+alias p3u='pip3 install -i http://pypi.mirrors.ustc.edu.cn/simple/ --trusted-host pypi.mirrors.ustc.edu.cn' # u: ustc
+alias p3h='pip3 install -i http://pypi.hustunique.com/ --trusted-host pypi.hustunique.com' # h: huazhongkeji
+alias p3a='pip3 install -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com' # a: aliyun
 
 # alias sduhmd="sudo du -h --max-depth=1"
 
