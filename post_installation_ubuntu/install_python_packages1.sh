@@ -7,7 +7,9 @@ pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ numpy
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ pandas
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ scipy
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ tqdm
-pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ matplotlib
+#pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ matplotlib
+sudo apt-get install python3-matplotlib # you should install this way for proper use of matplotlib!!!
+
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ seaborn
 
 # === sklearn ===
