@@ -98,6 +98,8 @@ alias sdri='sudo docker rmi'
 alias sud='sudo updatedb' # updatedb for locate
 alias wea='curl wttr.in'
 alias ret='retext'
+alias gr='grep -r'
+
 # === pip sources ===
 alias p3t='pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/' # t: tsinghua
 alias p3d='pip3 install -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com' # d: douban
