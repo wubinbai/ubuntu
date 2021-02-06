@@ -1,0 +1,18 @@
+降级方法
+1. 下载gcc/g++ 5
+sudo apt-get install -y gcc-5
+sudo apt-get install -y g++-5
+
+
+2. 链接gcc/g++实现降级
+cd /usr/bin
+sudo rm gcc
+sudo ln -s gcc-5 gcc
+sudo rm g++
+sudo ln -s g++-5 g++
+
+确认版本降级成功
+
+再次查看gcc版本，可以看到已经降级.
+
+>>gcc --version
