@@ -106,6 +106,14 @@ alias p3d='pip3 install -i http://pypi.douban.com/simple/ --trusted-host pypi.do
 alias p3u='pip3 install -i http://pypi.mirrors.ustc.edu.cn/simple/ --trusted-host pypi.mirrors.ustc.edu.cn' # u: ustc
 alias p3h='pip3 install -i http://pypi.hustunique.com/ --trusted-host pypi.hustunique.com' # h: huazhongkeji
 alias p3a='pip3 install -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com' # a: aliyun
+### timtout version
+alias p3tw='pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ --timeout 120' # t: tsinghua
+alias p3dw='pip3 install -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com --timeout 120' # d: douban
+alias p3uw='pip3 install -i http://pypi.mirrors.ustc.edu.cn/simple/ --trusted-host pypi.mirrors.ustc.edu.cn --timeout 120' # u: ustc
+alias p3hw='pip3 install -i http://pypi.hustunique.com/ --trusted-host pypi.hustunique.com --timeout 120' # h: huazhongkeji
+alias p3aw='pip3 install -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com --timeout 120' # a: aliyun
+
+
 
 # alias sduhmd="sudo du -h --max-depth=1"
 
