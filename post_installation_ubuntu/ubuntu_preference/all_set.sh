@@ -12,3 +12,7 @@ sudo apt update
 cd ~
 mkdir -p trash
 mkdir -p git
+## Ubuntu 18.04 shutdown when power button pressed
+hostnamectl set-chassis vm
+
+
