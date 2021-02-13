@@ -39,7 +39,7 @@ for i in range(MAX_ITER):
             for num_trials in range(MAX_TRIALS):
                 os.system('date')
                 start = time.time()
-                os.system('./do_it.sh')
+                os.system('./do_it_feb.sh')
                 end = time.time()
                 print('Done!!', round(end - start,3), 'secs')
                 d2[tm_yday] += 1
