@@ -1,0 +1,34 @@
+
+#创建 create
+python3 -m venv tutorial-env
+
+# in case it pops out: The virtual environment was not created successfully because ensurepip is not
+#available.  On Debian/Ubuntu systems, you need to install the python3-venv
+#package using the following command.
+
+#    apt-get install python3-venv
+
+#You may need to use sudo with that command.  After installing the python3-venv
+#package, recreate your virtual environment.
+
+#Failing command: ['/home/b/tutorial-env/bin/python3', '-Im', 'ensurepip', '--upgrade', '--default-pip']
+# run with:
+sudo apt-get install python3-venv
+
+#删除 delete
+#目前暂无，来源　https://stackoverflow.com/questions/11005457/how-do-i-remove-delete-a-virtualenv
+
+#进入虚拟环境 enter
+source tutorial-env/bin/activate
+
+#安装 install
+pip install -r requirements.txt
+#或
+pip install xxxxxxxx
+
+#删除当前环境下的所有库 uninstall all packages
+pip freeze > all_packages.txt
+pip uninstall -r all_packages.txt
+
+#退出　exit
+exit
