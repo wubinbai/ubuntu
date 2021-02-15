@@ -17,6 +17,12 @@ sudo apt-get install python3-venv
 
 #删除 delete
 #目前暂无，来源　https://stackoverflow.com/questions/11005457/how-do-i-remove-delete-a-virtualenv
+# on the other hand, try the following:
+#source venv/bin/activate
+#pip freeze > requirements.txt
+#pip uninstall -r requirements.txt -y
+#deactivate
+#rm -r venv/
 
 #进入虚拟环境 enter
 source tutorial-env/bin/activate
