@@ -1,0 +1,10 @@
+esc + refresh + power
+ctrl + d
+“turn OS verification OFF” enter
+ctrl + d; wait 5mins+
+reboot;  ctrl + d (Don't press enter!)
+https://goo.gl/fd3zc
+Ctrl-Alt-T; shell
+sudo install -Dt /usr/local/bin -m 755 ~/Downloads/crouton
+sudo crouton -t xfce
+sudo startxfce4
