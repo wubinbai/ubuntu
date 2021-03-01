@@ -239,7 +239,7 @@ want = input('Do you want to test on a new image? y/n: ')
 if want == 'y':
     eg = 'eg_input/jayballoon.jpeg'
     im = cv2.imread(eg)
-    im = cv2.resize(im,(2048,1365))  
+    #im = cv2.resize(im,(2048,1365))  
     #im = cv2.resize(im,(1365,2048))  
     output = predictor(im)
     v = Visualizer(im[:, :, ::-1],
