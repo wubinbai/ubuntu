@@ -104,6 +104,7 @@ alias bah='bash *.sh'
 
 # === misc two letters ===
 alias gr='grep -r'
+alias ct='cd ~/trash'
 
 # === pip sources ===
 alias p3t='pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/' # t: tsinghua
