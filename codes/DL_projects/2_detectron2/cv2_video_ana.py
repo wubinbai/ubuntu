@@ -1,7 +1,8 @@
 import cv2
 video = cv2.VideoCapture('video-input.mp4') 
 cv2.namedWindow('name',cv2.WINDOW_NORMAL)
-cv2.resizeWindow('name',1920,1080) 
+cv2.resizeWindow('name',1920,1080)
+i = 0
 while True:
     hasFrame, frame = video.read()
     if not hasFrame:
