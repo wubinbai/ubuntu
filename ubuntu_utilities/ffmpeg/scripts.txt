@@ -1,0 +1,31 @@
+# 1 convert
+ffmpeg -i input.xxx output.xxx
+
+# 2 compress
+ffmpeg -i input.xxx -vcodec libx265 -crf NUMBER output.mp4 # where NUMBER belongs to 18 to 51
+
+# 3 clip from start at time = t1 to finish at time = t2
+ffmpeg -i input.xxx -ss t1 -c copy -to t2 output.xxx
+
+# 4 clip from start at time = t1 and duration = d
+ffmpeg -i input.xxx -ss xx:xx:xx.x -c copy -t yy:yy:yy.y output.mp4 # where xx:xx:xx.x is t1 and yy:yy:yy.y is t2
+
+# 5 to silent
+
+# 6 to audio
+
+# 7 add-in audio
+
+# 8 combine videos
+
+# 9 frame per second conversion
+ffmpeg -i input.xxx -r fps output.xxx
+
+# 10 screenshot per one second
+ffmpeg -i input.mp4 -vf fps=1 output%d.png
+
+# 10b screenshot per 4 second
+ffmpeg -i input.mp4 -vf fps=0.25 output%d.png
+
+# 11 screenshot @ time t
+ffmpeg -i input.xxx -ss 4.500 vframes 1 output.png # where 4.500 is t
