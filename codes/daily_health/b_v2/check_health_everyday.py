@@ -6,7 +6,7 @@ MAX_ITER = int(1e99)
 NAP_HOUR = 0.2 # 0.2 hours
 NAP_SEC = int(NAP_HOUR * 60 * 60)
 DO_AT = 6 # 6 A.M.
-DO_AT2 = 10 # Recheck at 11 AM.
+DO_AT2 = 10# Recheck at 11 AM.
 
 ########## init dict
 d = dict()

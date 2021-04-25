@@ -6,11 +6,12 @@ from selenium.webdriver.common.keys import Keys
  
 ## ID pssd
 stuID = '2018401160'
-pw = '075015'
+#pw = '075015'
+pw = 'Bb005200'
  
 # urls
 url = 'https://ids.xmu.edu.cn/authserver/login?service=https%3A%2F%2Fi.xmu.edu.cn%2FEIP%2Fcaslogin.jsp'
-SLEEP_TIME = 10
+SLEEP_TIME = 5
 
 
 def autoSignIn():
@@ -25,7 +26,7 @@ def autoSignIn():
     driver.find_element_by_xpath('//input[@id="password"]').send_keys(pw)
     driver.find_element_by_xpath('//input[@id="password"]').send_keys(Keys.ENTER)
     time.sleep(SLEEP_TIME)
-    os.system('./mouse_1024_768_feb.sh')
+    os.system('./mouse_april.sh')
 
 
 if __name__ == '__main__':
