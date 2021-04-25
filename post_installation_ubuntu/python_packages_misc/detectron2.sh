@@ -13,7 +13,8 @@ mkdir ~/git
 #6 cd to git
 cd ~/git
 #7 git clone
-git clone git://github.com/ninja-build/ninja.git && cd ninja
+#git clone git://github.com/ninja-build/ninja.git && cd ninja
+git clone https://gitee.com/mirrors/ninja && cd ninja
 #8 checkout release
 git checkout release
 #9 run configure.py
@@ -23,6 +24,10 @@ sudo cp ./ninja /usr/bin
 #11 pip install libs
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ opencv-python torch torchvision --default-timeout=100
 #12 install detectron2
-python3 -m pip install 'git+https://github.com/facebookresearch/detectron2.git' -i https://pypi.tuna.tsinghua.edu.cn/simple
+#python3 -m pip install 'git+https://github.com/facebookresearch/detectron2.git' -i https://pypi.tuna.tsinghua.edu.cn/simple
+python3 -m pip install 'git+https://github.com/facebookresearch/detectron2.git' -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
+#python3 -m pip install 'git+https://gitee.com/vinsonws/detectron2' -i https://pypi.tuna.tsinghua.edu.cn/simple
+#python3 -m pip install 'git+https://gitee.com/vinsonws/detectron2' -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
+
 #13 install cuda --override
 #14 install cudnn

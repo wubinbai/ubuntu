@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install -y git vim speedtest-cli unrar retext grip xsel tree ffmpeg python3-pip ipython3 libsndfile1 sox pv curl
+sudo apt install -y git vim speedtest-cli unrar retext grip xsel tree ffmpeg python3-pip ipython3 libsndfile1 sox pv curl mediainfo imagemagick-6.q16 
 
 ## install vlc
 vlc --version
@@ -72,6 +72,14 @@ pv --version | grep 'pv '
 echo '==============='
 echo 'curl version'
 curl --version | grep 'curl '
+
+echo '==============='
+echo 'mediainfo version'
+mediainfo --version
+
+echo '==============='
+echo 'identify version'
+identify --version | grep 'ImageMagick'
 
 echo '==============='
 echo 'vlc version'

@@ -1,0 +1,19 @@
+
+========== enabling developer mode
+power off
+esc + refresh + power
+ctrl + d
+“turn OS verification OFF” enter
+ctrl + d and wait... +5mins at least
+then it will reboot and then ctrl + d again! Do not press enter!
+========== installing ubuntu with crouton
+https://goo.gl/fd3zc
+Ctrl-Alt-T
+shell + enter
+sudo sh ~/Downloads/crouton -t unity
+sudo install -Dt /usr/local/bin -m 755 ~/Downloads/crouton
+
+for lightweight:  replace -t unity with -t lxde or -t xfce. GNOME fans can also try -t gnome instead.
+========== switch
+Pressing Ctrl-Alt-Shift-Back and Ctrl-Alt-Shift-Forward will rotate you between ChromeOS and Ubuntu.
+In future sessions, type in sudo startunity in shell.

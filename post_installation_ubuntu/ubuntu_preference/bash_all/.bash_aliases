@@ -4,7 +4,7 @@ alias c='cd'
 alias d='du -sh *'
 alias e='evince'
 alias f='df -h .'
-alias g='gedit'
+alias g='cd ~/git'
 alias h='help'
 alias i='ipython3 -i'
 alias j='jupyter notebook'
@@ -34,7 +34,7 @@ alias D='cd ~/Downloads'
 # mEdia
 alias E='cd /media/*/'
 alias F=''
-alias G=''
+alias G='gedit'
 alias H=''
 alias I='sudo apt install'
 alias J=''
@@ -95,10 +95,16 @@ alias sdp='sudo docker ps'
 alias sdr='sudo docker rm'
 alias sdri='sudo docker rmi'
 # === misc ===
+# === misc three letters ===
 alias sud='sudo updatedb' # updatedb for locate
 alias wea='curl wttr.in'
 alias ret='retext'
+alias iay='ipython -i *.py'
+alias bah='bash *.sh'
+
+# === misc two letters ===
 alias gr='grep -r'
+alias ct='cd ~/trash'
 
 # === pip sources ===
 alias p3t='pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/' # t: tsinghua
