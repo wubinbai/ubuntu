@@ -1,0 +1,10 @@
+1 python3 seperate_train_val.py
+2 python3 xml_to_coco_train.py
+3 python3 xml_to_coco_val.py
+4 modify line 114 and line 116
+i.e. modify:
+register_coco_instances("my_dataset_train", {}, "/media/b/PSSD/haixia/workspace/pics_haixia/train/instances.json", "/media/b/PSSD/haixia/workspace/pics_haixia/train/jpg")
+
+register_coco_instances("my_dataset_val", {}, "/media/b/PSSD/haixia/workspace/pics_haixia/val/instances.json", "/media/b/PSSD/haixia/workspace/pics_haixia/val/jpg")
+
+5 python3 train_haixia_is.py

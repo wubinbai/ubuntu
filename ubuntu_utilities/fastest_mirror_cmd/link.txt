@@ -1,0 +1,2 @@
+ https://askubuntu.com/questions/39922/how-do-you-select-the-fastest-mirror-from-the-command-line
+

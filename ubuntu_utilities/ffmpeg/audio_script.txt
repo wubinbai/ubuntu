@@ -1,0 +1,8 @@
+
+ffmpeg -i "PZONKA190313.wav" -b:a 64k -acodec mp3 -ar 44100 -ac 1 "1.mp3"
+命令参数解释：
+ -i "PZONKA190313.wav"  输入的音频文件
+ -b:a 64k               表示音频的码率为64kb/s，即8kB/s；
+ -acodec mp3            表示设定声音编解码器为mp3；
+ -ar 44100              表示设定采样率为44100；
+ "1.mp3"                表示输出保存的文件名。

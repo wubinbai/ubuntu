@@ -131,6 +131,8 @@ alias tx='tar -xzvf' # tar extract .tar.gz
 alias TV='tar -tvf' # tar view .tar
 alias TN='tar -cvf' # tar create 'n'ew .tar
 alias TX='tar -xvf' # tar extract .tar
+# === rar ===
+alias ur='unrar x' # unrar extract .rar
 # === chmod ===
 alias ax='chmod a+x'
 # === cd ===
